@@ -8,11 +8,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class System {
+    List<Body> bodies;
+
     public static void main(String args[]) {
         List<Body> bodies = new ArrayList<>();
-
-
     }
-
-
 }

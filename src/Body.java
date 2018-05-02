@@ -4,8 +4,9 @@
     4/9/18
 */
 
-public class Body {
-    private final double G = .00000000006674;//TODO probably use a much larger G
+public abstract class Body {
+//    private final double G = .00000000006674;//TODO probably use a much larger G
+    private final double G = 6674;
     private String label;
     private double xPosition;
     private double yPosition;
@@ -72,10 +73,6 @@ public class Body {
         this.mass = mass;
     }
 
-    public Body copy() {
-        return new Body(this.label, this.mass, this.radius, this.xPosition, this.yPosition, this.iVector, this.jVector);
-    }
-
     public double getAbsoluteDistance(Body body) {
         return Math.sqrt(Math.pow(this.getXDistance(body), 2) + Math.pow(this.getYDistance(body), 2));
     }
@@ -117,4 +114,14 @@ public class Body {
             }
         }
     }
+
+    public boolean collision(Body body) {
+        return (this.getXDistance(body) <= (this.radius+body.radius));
+    }
+
+    public abstract void draw();
+
+    public abstract Body copy();
+
+    public abstract void remove();
 }
