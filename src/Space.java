@@ -9,12 +9,13 @@ import java.awt.*;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 
-public class Screen extends JFrame{
+
+public class Space extends JFrame {
     public static void main(String args[]) {
-        new Screen();
+        new Space();
     }
 
-    public Screen() {
+    public Space() {
         Toolkit toolkit = Toolkit.getDefaultToolkit();
 
         this.setSize(400, 400);
@@ -24,14 +25,17 @@ public class Screen extends JFrame{
         int yPosition = (dim.height/2)-(this.getHeight()/2);
         this.setLocation(xPosition, yPosition);
 
-        this.setVisible(true);
-
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setTitle("Gravity Sim");
+        this.setVisible(true);
 
         //Panel stuff
         JPanel panel1 = new JPanel();
         panel1.addMouseListener(new ListenForMouse());
+        panel1.setBackground(Color.WHITE);
+        panel1.setVisible(true);
+        this.add(panel1);
+        this.show();
     }
 
     private class ListenForMouse implements MouseListener{
@@ -40,7 +44,7 @@ public class Screen extends JFrame{
          * and released) on a component.
          */
         public void mouseClicked(MouseEvent e) {
-
+            System.out.println("X: "+e.getX()+",  Y: "+e.getY());
         }
 
         /**

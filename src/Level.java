@@ -7,10 +7,10 @@
 public class Level {
     private int winOrbitCount;
     private int orbitCount;
-    private System system;
+    private BodySystem system;
     private double pathHelperLength;
 
-    public Level(int goal, System system, double pathHelperLength) {
+    public Level(int goal, BodySystem system, double pathHelperLength) {
         this.orbitCount = 0;
         this.winOrbitCount = goal;
         this.system = system;
