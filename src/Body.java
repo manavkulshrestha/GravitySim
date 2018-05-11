@@ -70,7 +70,15 @@ public abstract class Body {
     }
 
     public void setMass(double newMass) {
-        this.mass = mass;
+        this.mass = newMass;
+    }
+
+    public double getRadius() {
+        return this.radius;
+    }
+
+    public void setRadius(double newRadius) {
+        this.radius = newRadius;
     }
 
     public double getAbsoluteDistance(Body body) {

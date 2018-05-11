@@ -11,6 +11,8 @@ import java.awt.event.MouseListener;
 
 
 public class Space extends JFrame {
+    BodySystem bs = new BodySystem();
+
     public static void main(String args[]) {
         new Space();
     }
@@ -39,26 +41,45 @@ public class Space extends JFrame {
     }
 
     private class ListenForMouse implements MouseListener{
+        private int pressX;
+        private int pressY;
         /**
          * Invoked when the mouse button has been clicked (pressed
          * and released) on a component.
          */
         public void mouseClicked(MouseEvent e) {
             System.out.println("X: "+e.getX()+",  Y: "+e.getY());
+
         }
 
         /**
          * Invoked when a mouse button has been pressed on a component.
          */
         public void mousePressed(MouseEvent e) {
-
+            this.pressX = e.getX();
+            this.pressY = e.getY();
         }
 
         /**
          * Invoked when a mouse button has been released on a component.
          */
         public void mouseReleased(MouseEvent e) {
+            bs.bodies.add(new Body("Label", 0, 0, 0, 0, 0, 0) {//get this from dialogue box
+                @Override
+                public void draw() {
 
+                }
+
+                @Override
+                public Body copy() {
+                    return null;
+                }
+
+                @Override
+                public void remove() {
+
+                }
+            });
         }
 
         /**
