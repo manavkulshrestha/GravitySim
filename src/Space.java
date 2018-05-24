@@ -20,7 +20,7 @@ public class Space extends JFrame {
     public Space() {
         Toolkit toolkit = Toolkit.getDefaultToolkit();
 
-        this.setSize(400, 400);
+        this.setSize(1100, 600);
 
         Dimension dim = toolkit.getScreenSize();
         int xPosition = (dim.width/2)-(this.getWidth()/2);
@@ -64,22 +64,7 @@ public class Space extends JFrame {
          * Invoked when a mouse button has been released on a component.
          */
         public void mouseReleased(MouseEvent e) {
-            bs.bodies.add(new Body("Label", 0, 0, 0, 0, 0, 0) {//get this from dialogue box
-                @Override
-                public void draw() {
 
-                }
-
-                @Override
-                public Body copy() {
-                    return null;
-                }
-
-                @Override
-                public void remove() {
-
-                }
-            });
         }
 
         /**

@@ -1,16 +1,23 @@
 /*
     Manav Kulshrestha
-    System.java
-    4/9/18
+    Bodies.java
+    5/24/18
 */
 
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.util.ArrayList;
-import java.util.List;
 
-public class BodySystem {
-    List<Body> bodies;
+public class BodySystem extends JPanel implements ActionListener{
+    public ArrayList<Body> bodies = new ArrayList<>();
 
-    public static void main(String args[]) {
-        List<Body> bodies = new ArrayList<>();
+    public void paintComponent(Graphics g) {
+
+    }
+
+    public void actionPerformed(ActionEvent e) {
+
     }
 }
