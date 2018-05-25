@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae50a068-1a26-4d71-ab9e-8c2d7b47b026" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GravitySimulator.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GravitySim/Selector$ListenForSave.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Level.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GravitySim/Run.class" afterPath="$PROJECT_DIR$/out/production/GravitySim/Run.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GravitySim/Selector$ListenForMassSlider.class" afterPath="$PROJECT_DIR$/out/production/GravitySim/Selector$ListenForMassSlider.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GravitySim/Selector$ListenForProjectileRadio.class" afterPath="$PROJECT_DIR$/out/production/GravitySim/Selector$ListenForProjectileRadio.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GravitySim/Selector$ListenForRadiusSlider.class" afterPath="$PROJECT_DIR$/out/production/GravitySim/Selector$ListenForRadiusSlider.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GravitySim/Selector.class" afterPath="$PROJECT_DIR$/out/production/GravitySim/Selector.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GravitySim/Space.class" afterPath="$PROJECT_DIR$/out/production/GravitySim/Space.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Body.java" afterPath="$PROJECT_DIR$/src/Body.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BodySystem.java" afterPath="$PROJECT_DIR$/src/BodySystem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Run.java" afterPath="$PROJECT_DIR$/src/Run.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Selector.java" afterPath="$PROJECT_DIR$/src/Selector.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Space.java" afterPath="$PROJECT_DIR$/src/Space.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,8 +20,8 @@
       <file leaf-file-name="Body.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Body.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="110" column="24" lean-forward="false" selection-start-line="110" selection-start-column="24" selection-end-line="110" selection-end-column="24" />
+            <state relative-caret-position="246">
+              <caret line="109" column="45" lean-forward="true" selection-start-line="109" selection-start-column="45" selection-end-line="109" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -435,7 +421,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32933334" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32933334" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -514,8 +500,8 @@
             <element signature="e#1029#1030#0" expanded="true" />
             <element signature="e#1082#1083#0" expanded="true" />
             <element signature="e#1127#1128#0" expanded="true" />
-            <element signature="e#3469#3470#0" expanded="true" />
-            <element signature="e#3560#3561#0" expanded="true" />
+            <element signature="e#2956#2957#0" expanded="true" />
+            <element signature="e#3047#3048#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -587,8 +573,8 @@
             <element signature="e#1029#1030#0" expanded="true" />
             <element signature="e#1082#1083#0" expanded="true" />
             <element signature="e#1127#1128#0" expanded="true" />
-            <element signature="e#3469#3470#0" expanded="true" />
-            <element signature="e#3560#3561#0" expanded="true" />
+            <element signature="e#2956#2957#0" expanded="true" />
+            <element signature="e#3047#3048#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -660,8 +646,8 @@
             <element signature="e#1029#1030#0" expanded="true" />
             <element signature="e#1082#1083#0" expanded="true" />
             <element signature="e#1127#1128#0" expanded="true" />
-            <element signature="e#3469#3470#0" expanded="true" />
-            <element signature="e#3560#3561#0" expanded="true" />
+            <element signature="e#2956#2957#0" expanded="true" />
+            <element signature="e#3047#3048#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -718,8 +704,8 @@
             <element signature="e#1029#1030#0" expanded="true" />
             <element signature="e#1082#1083#0" expanded="true" />
             <element signature="e#1127#1128#0" expanded="true" />
-            <element signature="e#3469#3470#0" expanded="true" />
-            <element signature="e#3560#3561#0" expanded="true" />
+            <element signature="e#2956#2957#0" expanded="true" />
+            <element signature="e#3047#3048#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -747,8 +733,8 @@
             <element signature="e#1029#1030#0" expanded="true" />
             <element signature="e#1082#1083#0" expanded="true" />
             <element signature="e#1127#1128#0" expanded="true" />
-            <element signature="e#3469#3470#0" expanded="true" />
-            <element signature="e#3560#3561#0" expanded="true" />
+            <element signature="e#2956#2957#0" expanded="true" />
+            <element signature="e#3047#3048#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -784,8 +770,8 @@
             <element signature="e#1029#1030#0" expanded="true" />
             <element signature="e#1082#1083#0" expanded="true" />
             <element signature="e#1127#1128#0" expanded="true" />
-            <element signature="e#3469#3470#0" expanded="true" />
-            <element signature="e#3560#3561#0" expanded="true" />
+            <element signature="e#2956#2957#0" expanded="true" />
+            <element signature="e#3047#3048#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -813,8 +799,8 @@
             <element signature="e#1029#1030#0" expanded="true" />
             <element signature="e#1082#1083#0" expanded="true" />
             <element signature="e#1127#1128#0" expanded="true" />
-            <element signature="e#3469#3470#0" expanded="true" />
-            <element signature="e#3560#3561#0" expanded="true" />
+            <element signature="e#2956#2957#0" expanded="true" />
+            <element signature="e#3047#3048#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -842,8 +828,8 @@
             <element signature="e#1029#1030#0" expanded="true" />
             <element signature="e#1082#1083#0" expanded="true" />
             <element signature="e#1127#1128#0" expanded="true" />
-            <element signature="e#3469#3470#0" expanded="true" />
-            <element signature="e#3560#3561#0" expanded="true" />
+            <element signature="e#2956#2957#0" expanded="true" />
+            <element signature="e#3047#3048#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -871,8 +857,8 @@
             <element signature="e#1029#1030#0" expanded="true" />
             <element signature="e#1082#1083#0" expanded="true" />
             <element signature="e#1127#1128#0" expanded="true" />
-            <element signature="e#3469#3470#0" expanded="true" />
-            <element signature="e#3560#3561#0" expanded="true" />
+            <element signature="e#2956#2957#0" expanded="true" />
+            <element signature="e#3047#3048#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1048,8 +1034,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Body.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="110" column="24" lean-forward="false" selection-start-line="110" selection-start-column="24" selection-end-line="110" selection-end-column="24" />
+        <state relative-caret-position="246">
+          <caret line="109" column="45" lean-forward="true" selection-start-line="109" selection-start-column="45" selection-end-line="109" selection-end-column="45" />
           <folding />
         </state>
       </provider>

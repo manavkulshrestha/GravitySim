@@ -107,23 +107,10 @@ public class Body {
         if(x == 0) {
             this.jVector += (y > 0) ? a : -a;
         } else if(y == 0) {
-            this.iVector += (x > 0) ? -a : a;//            ., or ,.
-        } else if(x > 0) {
-            if(y > 0) {
-                this.iVector += -a*cos;//   ,
-                this.jVector += -a*sin;//       .
-            } else if(y < 0) {
-                this.iVector += -a*cos;//       .
-                this.jVector += -a*sin;//    ,
-            }
-        } else if(x < 0) {
-            if(y > 0) {
-                this.iVector += -a*cos;//        ,
-                this.jVector += -a*sin;//   .
-            } else if(y < 0) {
-                this.iVector += -a*cos;//    .
-                this.jVector += -a*sin;//        ,
-            }
+            this.iVector += (x > 0) ? -a : a;
+        } else {
+            this.iVector += -a*cos;
+            this.jVector += -a*sin;
         }
     }
 
