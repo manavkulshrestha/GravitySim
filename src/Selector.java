@@ -8,23 +8,22 @@ import javax.swing.*;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 import java.awt.*;
+import java.awt.event.ActionListener;
 import java.awt.event.ItemEvent;
 import java.awt.event.ItemListener;
 
 public class Selector extends JFrame {
     private JPanel main, mr;
-    private JLabel nameLabel, massLabel, radiusLabel, iVectorLabel, jVectorLabel;
-    private JTextField nameText, massText, radiusText, iVectorText, jVectorText;
+    private JLabel nameLabel, massLabel, radiusLabel, iVectorLabel, jVectorLabel, xPosLabel, yPosLabel;
+    private JTextField nameText, massText, radiusText, iVectorText, jVectorText, xPosText, yPosText;
     private JSlider massSlider, radiusSlider;
     private JRadioButton Projectile, Stationary;
-    private JButton save;
+    private JButton coords, place;
     public int count;
     private String[] info;
 
     public static void main(String args[]) {
         Selector selector = new Selector();
-        String[] info = selector.getInfo();
-        System.out.print(info);
     }
 
     public Selector() {
@@ -40,10 +39,20 @@ public class Selector extends JFrame {
         main = new JPanel();
         main.setLayout(new GridBagLayout());
 
-        nameLabel = new JLabel("Name:");
-        addComp(main, nameLabel, 0, 0, 1, 1, GridBagConstraints.EAST, GridBagConstraints.NONE);
-        nameText = new JTextField(30);
-        addComp(main, nameText, 1, 0, 2, 1, GridBagConstraints.WEST, GridBagConstraints.NONE);
+        xPosLabel = new JLabel("X Position:");
+        addComp(main, xPosLabel, 0, 0, 1, 1, GridBagConstraints.EAST, GridBagConstraints.NONE);
+        xPosText = new JTextField(30);
+        xPosText.setText("0");
+        addComp(main, xPosText, 1, 0, 2, 1, GridBagConstraints.WEST, GridBagConstraints.NONE);
+
+        yPosLabel = new JLabel("Y Position:");
+        addComp(main, yPosLabel, 0, 1, 1, 1, GridBagConstraints.EAST, GridBagConstraints.NONE);
+        yPosText = new JTextField(30);
+        yPosText.setText("0");
+        addComp(main, yPosText, 1, 1, 2, 1, GridBagConstraints.WEST, GridBagConstraints.NONE);
+
+        coords = new JButton("Pull Coordiantes");
+        addComp(main, coords, 1, 2, 2, 1, GridBagConstraints.CENTER, GridBagConstraints.NONE);
 
         mr = new JPanel();
         mr.setLayout(new FlowLayout(FlowLayout.LEFT, 5, 0));
@@ -62,20 +71,20 @@ public class Selector extends JFrame {
         radiusSlider.addChangeListener(listenForRadiusSlider);
         mr.add(radiusSlider);
 
-        addComp(main, mr, 0, 1, 5, 1, GridBagConstraints.EAST, GridBagConstraints.NONE);
+        addComp(main, mr, 0, 3, 5, 1, GridBagConstraints.EAST, GridBagConstraints.NONE);
 
         iVectorLabel = new JLabel("I Vector:");
-        addComp(main, iVectorLabel, 0, 2, 1, 1, GridBagConstraints.EAST, GridBagConstraints.NONE);
+        addComp(main, iVectorLabel, 0, 4, 1, 1, GridBagConstraints.EAST, GridBagConstraints.NONE);
         iVectorText = new JTextField(30);
-        addComp(main, iVectorText, 1, 2, 2, 1, GridBagConstraints.WEST, GridBagConstraints.NONE);
+        addComp(main, iVectorText, 1, 4, 2, 1, GridBagConstraints.WEST, GridBagConstraints.NONE);
 
         jVectorLabel = new JLabel("J Vector:");
-        addComp(main, jVectorLabel, 0, 3, 1, 1, GridBagConstraints.EAST, GridBagConstraints.NONE);
+        addComp(main, jVectorLabel, 0, 5, 1, 1, GridBagConstraints.EAST, GridBagConstraints.NONE);
         jVectorText = new JTextField(30);
-        addComp(main, jVectorText, 1, 3, 2, 1, GridBagConstraints.WEST, GridBagConstraints.NONE);
+        addComp(main, jVectorText, 1, 5, 2, 1, GridBagConstraints.WEST, GridBagConstraints.NONE);
 
-        save = new JButton("Save");
-        addComp(main, save, 1, 4, 2, 1, GridBagConstraints.CENTER, GridBagConstraints.NONE);
+        place = new JButton("Place");
+        addComp(main, place, 1, 6, 2, 1, GridBagConstraints.CENTER, GridBagConstraints.NONE);
 
         Box typeBox = Box.createVerticalBox();
 
@@ -139,16 +148,45 @@ public class Selector extends JFrame {
         }
     }
 
-    private class ListenForSave implements ChangeListener {
-        public void stateChanged(ChangeEvent e) {
-            if(e.getSource() == save) {
-                info[0] = ""+nameText.getText();
-                info[1] = ""+massSlider.getValue();
-                info[2] = ""+radiusSlider.getValue();
-                info[3] = ""+iVectorText.getText();
-                info[4] = ""+jVectorText.getText();
-            }
-        }
+    public void addPlaceListener(ActionListener listenerForPlace) {
+        place.addActionListener(listenerForPlace);
+    }
+
+    public void addCoordListener(ActionListener listenerForCoords) {
+        coords.addActionListener(listenerForCoords);
+    }
+
+//    public String getNameLabel() {
+//        return nameText.getName();
+//    }
+
+    public void setCoords(int x, int y) {
+        xPosText.setText(""+x);
+        yPosText.setText(""+y);
+    }
+
+    public int getMass() {
+        return massSlider.getValue();
+    }
+
+    public int getRadius() {
+        return radiusSlider.getValue();
+    }
+
+    public int getXPos() {
+        return Integer.parseInt(xPosText.getText());
+    }
+
+    public int getYPos() {
+        return Integer.parseInt(yPosText.getText());
+    }
+
+    public int getIVector() {
+        return Integer.parseInt(iVectorText.getText());
+    }
+
+    public int getjVector() {
+        return Integer.parseInt(jVectorText.getText());
     }
 
     public String[] getInfo() {

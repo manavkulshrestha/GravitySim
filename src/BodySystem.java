@@ -45,7 +45,7 @@ public class BodySystem extends JPanel implements ActionListener{
 
         //removing zeros
         for(int i=0; i<bodies.size(); i++)
-            if(bodies.get(i).getMass() == 0)
+            if(bodies.get(i).getMass() == 0 || bodies.get(i).getXPosition() < -10 || bodies.get(i).getYPosition() < -10)
                 bodies.remove(i);
 
         size = bodies.size();
@@ -63,7 +63,7 @@ public class BodySystem extends JPanel implements ActionListener{
         repaint();
     }
 
-    public void addBody(String label, double m, double r, double x, double y, double i, double j) {
-        bodies.add(new Body(label, m, r, x, y, i, j));
+    public void addBody(double m, double r, double x, double y, double i, double j) {
+        bodies.add(new Body(m, r, x, y, i, j));
     }
 }

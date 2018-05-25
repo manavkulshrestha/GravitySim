@@ -15,8 +15,7 @@ public class Body {
     private double mass;
     private double radius;
 
-    public Body(String label, double m, double r, double x, double y, double i, double j) {
-        this.label = label;
+    public Body(double m, double r, double x, double y, double i, double j) {
         this.xPosition = x;
         this.yPosition = y;
         this.iVector = i;
@@ -25,13 +24,13 @@ public class Body {
         this.radius = r;
     }
 
-    public String getLabel() {
-        return this.label;
-    }
-
-    public void setLabel(String newLabel) {
-        this.label = newLabel;
-    }
+//    public String getLabel() {
+//        return this.label;
+//    }
+//
+//    public void setLabel(String newLabel) {
+//        this.label = newLabel;
+//    }
 
     public double getXPosition() {
         return this.xPosition;
@@ -115,15 +114,15 @@ public class Body {
                 this.jVector += -a*sin;//       .
             } else if(y < 0) {
                 this.iVector += -a*cos;//       .
-                this.jVector += a*sin;//    ,
+                this.jVector += -a*sin;//    ,
             }
         } else if(x < 0) {
             if(y > 0) {
-                this.iVector += a*cos;//        ,
+                this.iVector += -a*cos;//        ,
                 this.jVector += -a*sin;//   .
             } else if(y < 0) {
-                this.iVector += a*cos;//    .
-                this.jVector += a*sin;//        ,
+                this.iVector += -a*cos;//    .
+                this.jVector += -a*sin;//        ,
             }
         }
     }

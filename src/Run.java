@@ -6,16 +6,34 @@
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class Run {
-    public static void main(String args[]) {
-        JFrame space = new Space();
-        BodySystem bs = new BodySystem(50);
+    private Selector selector;
+    private Space space;
+    private BodySystem bodySystem;
 
-        bs.addBody("", 100, 20, 400, 100, 0, 0);
-        bs.addBody("", 100, 20, 300, 100, 0, 0);
+    public Run(Selector se, Space sp, BodySystem bs) {
+        selector = se;
+        space = sp;
+        bodySystem = bs;
+
         space.add(bs);
 
+        selector.addPlaceListener(new PlaceListener());
+        selector.addCoordListener(new CoordsListener());
+    }
 
+    class PlaceListener implements ActionListener {
+        public void actionPerformed(ActionEvent e) {
+            bodySystem.addBody(selector.getMass(), selector.getRadius(), selector.getXPos(), selector.getYPos(), selector.getIVector(), selector.getjVector());
+        }
+    }
+
+    class CoordsListener implements ActionListener {
+        public void actionPerformed(ActionEvent e) {
+            selector.setCoords(space.getXCoord(), space.getYCoord());
+        }
     }
 }
