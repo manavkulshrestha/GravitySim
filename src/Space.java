@@ -11,10 +11,12 @@ import java.awt.event.MouseListener;
 
 
 public class Space extends JFrame {
-    BodySystem bs = new BodySystem();
 
     public static void main(String args[]) {
-        new Space();
+        Space s = new Space();
+//        BodySystem bs = new BodySystem();
+//        s.add(bs);
+        s.setVisible(true);
     }
 
     public Space() {
@@ -29,15 +31,17 @@ public class Space extends JFrame {
 
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setTitle("Gravity Sim");
-        this.setVisible(true);
+
 
         //Panel stuff
-        JPanel panel1 = new JPanel();
-        panel1.addMouseListener(new ListenForMouse());
-        panel1.setBackground(Color.WHITE);
-        panel1.setVisible(true);
-        this.add(panel1);
-        this.show();
+//        JPanel panel1 = new JPanel();
+//        panel1.addMouseListener(new ListenForMouse());
+//        panel1.setBackground(Color.WHITE);
+
+//        bs = new BodySystem();
+//        this.add(bs);
+
+        this.setVisible(true);
     }
 
     private class ListenForMouse implements MouseListener{

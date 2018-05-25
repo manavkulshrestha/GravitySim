@@ -4,12 +4,12 @@
     4/9/18
 */
 
-public abstract class Body {
+public class Body {
 //    private final double G = .00000000006674;//TODO probably use a much larger G
     private final double G = 6674;
     private String label;
-    private double xPosition;
-    private double yPosition;
+    public double xPosition;
+    public double yPosition;
     private double iVector;
     private double jVector;
     private double mass;
@@ -123,13 +123,18 @@ public abstract class Body {
         }
     }
 
+    public void move() {
+        this.xPosition += iVector;
+        this.yPosition += jVector;
+    }
+
     public boolean collision(Body body) {
         return (this.getXDistance(body) <= (this.radius+body.radius));
     }
 
-    public abstract void draw();
-
-    public abstract Body copy();
-
-    public abstract void remove();
+//    public abstract void draw();
+//
+//    public abstract Body copy();
+//
+//    public abstract void remove();
 }

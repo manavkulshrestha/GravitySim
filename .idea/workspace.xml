@@ -2,12 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae50a068-1a26-4d71-ab9e-8c2d7b47b026" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Selector.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Run.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GravitySim/BlackHole.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GravitySim/Projectile.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GravitySim/Space$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/BlackHole.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Projectile.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GravitySim/Body.class" afterPath="$PROJECT_DIR$/out/production/GravitySim/Body.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GravitySim/BodySystem.class" afterPath="$PROJECT_DIR$/out/production/GravitySim/BodySystem.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GravitySim/Selector$ListenForMassSlider.class" afterPath="$PROJECT_DIR$/out/production/GravitySim/Selector$ListenForMassSlider.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GravitySim/Selector$ListenForProjectileRadio.class" afterPath="$PROJECT_DIR$/out/production/GravitySim/Selector$ListenForProjectileRadio.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GravitySim/Selector$ListenForRadiusSlider.class" afterPath="$PROJECT_DIR$/out/production/GravitySim/Selector$ListenForRadiusSlider.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GravitySim/Selector.class" afterPath="$PROJECT_DIR$/out/production/GravitySim/Selector.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GravitySim/Space$ListenForMouse.class" afterPath="$PROJECT_DIR$/out/production/GravitySim/Space$ListenForMouse.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GravitySim/Space.class" afterPath="$PROJECT_DIR$/out/production/GravitySim/Space.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Body.java" afterPath="$PROJECT_DIR$/src/Body.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BodySystem.java" afterPath="$PROJECT_DIR$/src/BodySystem.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Space.java" afterPath="$PROJECT_DIR$/src/Space.java" />
     </list>
@@ -24,29 +34,18 @@
       <file leaf-file-name="Body.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Body.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1365">
-              <caret line="129" column="0" lean-forward="false" selection-start-line="129" selection-start-column="0" selection-end-line="133" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BlackHole.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BlackHole.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Projectile.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Projectile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="8" column="47" lean-forward="false" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
-              <folding />
+            <state relative-caret-position="163">
+              <caret line="17" column="88" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="88" />
+              <folding>
+                <element signature="e#848#849#0" expanded="true" />
+                <element signature="e#885#886#0" expanded="true" />
+                <element signature="e#938#939#0" expanded="true" />
+                <element signature="e#983#984#0" expanded="true" />
+                <element signature="e#1019#1020#0" expanded="true" />
+                <element signature="e#1056#1057#0" expanded="true" />
+                <element signature="e#1109#1110#0" expanded="true" />
+                <element signature="e#1154#1155#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -54,8 +53,8 @@
       <file leaf-file-name="BodySystem.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/BodySystem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="13" column="54" lean-forward="true" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
+            <state relative-caret-position="416">
+              <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,24 +62,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Level.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Level.java">
+      <file leaf-file-name="AquaRootPaneUI.class" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/rt.jar!/com/apple/laf/AquaRootPaneUI.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="12" column="72" lean-forward="false" selection-start-line="12" selection-start-column="72" selection-end-line="12" selection-end-column="72" />
+            <state relative-caret-position="125">
+              <caret line="39" column="75" lean-forward="false" selection-start-line="39" selection-start-column="75" selection-end-line="39" selection-end-column="75" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Space.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Space.java">
+      <file leaf-file-name="ClientPropertyApplicator.class" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/rt.jar!/com/apple/laf/ClientPropertyApplicator.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="17" column="84" lean-forward="false" selection-start-line="17" selection-start-column="84" selection-end-line="17" selection-end-column="84" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Run.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Run.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="13" column="37" lean-forward="true" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="13" column="44" lean-forward="true" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -89,7 +96,19 @@
         <entry file="file://$PROJECT_DIR$/src/Selector.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+              <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Space.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Space.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -125,15 +144,16 @@
         <option value="$PROJECT_DIR$/src/System.java" />
         <option value="$PROJECT_DIR$/src/Level.java" />
         <option value="$PROJECT_DIR$/src/Screen.java" />
-        <option value="$PROJECT_DIR$/src/Body.java" />
         <option value="$PROJECT_DIR$/src/BlackHole.java" />
         <option value="$PROJECT_DIR$/src/Projectile.java" />
         <option value="$PROJECT_DIR$/src/test.java" />
         <option value="$PROJECT_DIR$/src/UI.java" />
-        <option value="$PROJECT_DIR$/src/Space.java" />
         <option value="$PROJECT_DIR$/src/Selector.java" />
         <option value="$PROJECT_DIR$/src/Bodies.java" />
+        <option value="$PROJECT_DIR$/src/Body.java" />
+        <option value="$PROJECT_DIR$/src/Space.java" />
         <option value="$PROJECT_DIR$/src/BodySystem.java" />
+        <option value="$PROJECT_DIR$/src/Run.java" />
       </list>
     </option>
   </component>
@@ -159,6 +179,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -176,9 +197,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -199,7 +219,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Selector">
+  <component name="RunManager" selected="Application.Run">
+    <configuration name="Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Run" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="GravitySim" />
+      <envs />
+    </configuration>
     <configuration name="Screen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Screen" />
@@ -349,18 +383,20 @@
       <module name="GravitySim" />
       <envs />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.Screen" />
       <item index="1" class="java.lang.String" itemvalue="Application.Space" />
       <item index="2" class="java.lang.String" itemvalue="Application.test" />
       <item index="3" class="java.lang.String" itemvalue="Application.Selector" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Run" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Application.Selector" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.Run" />
         <item index="1" class="java.lang.String" itemvalue="Application.Space" />
-        <item index="2" class="java.lang.String" itemvalue="Application.test" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Screen" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Selector" />
+        <item index="3" class="java.lang.String" itemvalue="Application.test" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Screen" />
       </list>
     </recent_temporary>
   </component>
@@ -416,41 +452,24 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BodySystem.java</url>
+          <properties />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BodySystem.java</url>
+          <line>67</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Projectile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="8" column="47" lean-forward="true" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Level.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/javax/swing/JFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1845">
-          <caret line="123" column="25" lean-forward="false" selection-start-line="123" selection-start-column="25" selection-end-line="123" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/javax/swing/JPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="64" column="13" lean-forward="false" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/awt/event/MouseListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="615">
@@ -472,7 +491,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="17" column="37" lean-forward="false" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-          <folding />
+          <folding>
+            <element signature="e#848#849#0" expanded="true" />
+            <element signature="e#885#886#0" expanded="true" />
+            <element signature="e#938#939#0" expanded="true" />
+            <element signature="e#983#984#0" expanded="true" />
+            <element signature="e#1019#1020#0" expanded="true" />
+            <element signature="e#1056#1057#0" expanded="true" />
+            <element signature="e#1109#1110#0" expanded="true" />
+            <element signature="e#1154#1155#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -530,7 +558,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="17" column="37" lean-forward="false" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-          <folding />
+          <folding>
+            <element signature="e#848#849#0" expanded="true" />
+            <element signature="e#885#886#0" expanded="true" />
+            <element signature="e#938#939#0" expanded="true" />
+            <element signature="e#983#984#0" expanded="true" />
+            <element signature="e#1019#1020#0" expanded="true" />
+            <element signature="e#1056#1057#0" expanded="true" />
+            <element signature="e#1109#1110#0" expanded="true" />
+            <element signature="e#1154#1155#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -588,7 +625,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1020">
           <caret line="100" column="27" lean-forward="false" selection-start-line="100" selection-start-column="27" selection-end-line="100" selection-end-column="27" />
-          <folding />
+          <folding>
+            <element signature="e#848#849#0" expanded="true" />
+            <element signature="e#885#886#0" expanded="true" />
+            <element signature="e#938#939#0" expanded="true" />
+            <element signature="e#983#984#0" expanded="true" />
+            <element signature="e#1019#1020#0" expanded="true" />
+            <element signature="e#1056#1057#0" expanded="true" />
+            <element signature="e#1109#1110#0" expanded="true" />
+            <element signature="e#1154#1155#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -631,7 +677,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#848#849#0" expanded="true" />
+            <element signature="e#885#886#0" expanded="true" />
+            <element signature="e#938#939#0" expanded="true" />
+            <element signature="e#983#984#0" expanded="true" />
+            <element signature="e#1019#1020#0" expanded="true" />
+            <element signature="e#1056#1057#0" expanded="true" />
+            <element signature="e#1109#1110#0" expanded="true" />
+            <element signature="e#1154#1155#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -649,7 +704,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#848#849#0" expanded="true" />
+            <element signature="e#885#886#0" expanded="true" />
+            <element signature="e#938#939#0" expanded="true" />
+            <element signature="e#983#984#0" expanded="true" />
+            <element signature="e#1019#1020#0" expanded="true" />
+            <element signature="e#1056#1057#0" expanded="true" />
+            <element signature="e#1109#1110#0" expanded="true" />
+            <element signature="e#1154#1155#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -675,7 +739,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#848#849#0" expanded="true" />
+            <element signature="e#885#886#0" expanded="true" />
+            <element signature="e#938#939#0" expanded="true" />
+            <element signature="e#983#984#0" expanded="true" />
+            <element signature="e#1019#1020#0" expanded="true" />
+            <element signature="e#1056#1057#0" expanded="true" />
+            <element signature="e#1109#1110#0" expanded="true" />
+            <element signature="e#1154#1155#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -693,7 +766,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#848#849#0" expanded="true" />
+            <element signature="e#885#886#0" expanded="true" />
+            <element signature="e#938#939#0" expanded="true" />
+            <element signature="e#983#984#0" expanded="true" />
+            <element signature="e#1019#1020#0" expanded="true" />
+            <element signature="e#1056#1057#0" expanded="true" />
+            <element signature="e#1109#1110#0" expanded="true" />
+            <element signature="e#1154#1155#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -711,7 +793,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#848#849#0" expanded="true" />
+            <element signature="e#885#886#0" expanded="true" />
+            <element signature="e#938#939#0" expanded="true" />
+            <element signature="e#983#984#0" expanded="true" />
+            <element signature="e#1019#1020#0" expanded="true" />
+            <element signature="e#1056#1057#0" expanded="true" />
+            <element signature="e#1109#1110#0" expanded="true" />
+            <element signature="e#1154#1155#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -729,7 +820,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#848#849#0" expanded="true" />
+            <element signature="e#885#886#0" expanded="true" />
+            <element signature="e#938#939#0" expanded="true" />
+            <element signature="e#983#984#0" expanded="true" />
+            <element signature="e#1019#1020#0" expanded="true" />
+            <element signature="e#1056#1057#0" expanded="true" />
+            <element signature="e#1109#1110#0" expanded="true" />
+            <element signature="e#1154#1155#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -773,29 +873,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Bodies.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/javax/swing/JComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="775" column="19" lean-forward="false" selection-start-line="775" selection-start-column="19" selection-end-line="775" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/BlackHole.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Level.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="12" column="72" lean-forward="false" selection-start-line="12" selection-start-column="72" selection-end-line="12" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Selector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -807,36 +898,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Space.java">
+    <entry file="file://$PROJECT_DIR$/src/Selector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="13" column="37" lean-forward="true" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+        <state relative-caret-position="225">
+          <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Body.java">
+    <entry file="file://$PROJECT_DIR$/src/Level.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1365">
-          <caret line="129" column="0" lean-forward="false" selection-start-line="129" selection-start-column="0" selection-end-line="133" selection-end-column="34" />
+        <state relative-caret-position="195">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Bodies.java">
+    <entry file="file://$PROJECT_DIR$/src/Body.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="163">
+          <caret line="17" column="88" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="88" />
+          <folding>
+            <element signature="e#848#849#0" expanded="true" />
+            <element signature="e#885#886#0" expanded="true" />
+            <element signature="e#938#939#0" expanded="true" />
+            <element signature="e#983#984#0" expanded="true" />
+            <element signature="e#1019#1020#0" expanded="true" />
+            <element signature="e#1056#1057#0" expanded="true" />
+            <element signature="e#1109#1110#0" expanded="true" />
+            <element signature="e#1154#1155#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Space.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/rt.jar!/com/apple/laf/ClientPropertyApplicator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="84" lean-forward="false" selection-start-line="17" selection-start-column="84" selection-end-line="17" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="13" column="44" lean-forward="true" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/rt.jar!/com/apple/laf/AquaRootPaneUI.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="39" column="75" lean-forward="false" selection-start-line="39" selection-start-column="75" selection-end-line="39" selection-end-column="75" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BodySystem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="13" column="54" lean-forward="true" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
+        <state relative-caret-position="416">
+          <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
