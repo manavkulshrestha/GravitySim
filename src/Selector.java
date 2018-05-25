@@ -51,7 +51,7 @@ public class Selector extends JFrame {
         yPosText.setText("0");
         addComp(main, yPosText, 1, 1, 2, 1, GridBagConstraints.WEST, GridBagConstraints.NONE);
 
-        coords = new JButton("Pull Coordiantes");
+        coords = new JButton("Pull Coordinates");
         addComp(main, coords, 1, 2, 2, 1, GridBagConstraints.CENTER, GridBagConstraints.NONE);
 
         mr = new JPanel();
@@ -76,11 +76,13 @@ public class Selector extends JFrame {
         iVectorLabel = new JLabel("I Vector:");
         addComp(main, iVectorLabel, 0, 4, 1, 1, GridBagConstraints.EAST, GridBagConstraints.NONE);
         iVectorText = new JTextField(30);
+        iVectorText.setText("0");
         addComp(main, iVectorText, 1, 4, 2, 1, GridBagConstraints.WEST, GridBagConstraints.NONE);
 
         jVectorLabel = new JLabel("J Vector:");
         addComp(main, jVectorLabel, 0, 5, 1, 1, GridBagConstraints.EAST, GridBagConstraints.NONE);
         jVectorText = new JTextField(30);
+        jVectorText.setText("0");
         addComp(main, jVectorText, 1, 5, 2, 1, GridBagConstraints.WEST, GridBagConstraints.NONE);
 
         place = new JButton("Place");
