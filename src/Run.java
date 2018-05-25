@@ -5,20 +5,17 @@
 */
 
 import javax.swing.*;
+import java.awt.*;
 
 public class Run {
     public static void main(String args[]) {
-        JFrame f = new JFrame();
+        JFrame space = new Space();
+        BodySystem bs = new BodySystem(50);
 
-//        BodySystem bs = new BodySystem(10, 5);
-        BodySystem bs = new BodySystem(5);
+        bs.addBody("", 100, 20, 400, 100, 0, 0);
+        bs.addBody("", 100, 20, 300, 100, 0, 0);
+        space.add(bs);
 
-        bs.addBody("", 100, 20, 100, 100, 1, 1);
-        f.add(bs);
 
-        f.setVisible(true);
-        f.setSize(1100, 600);
-        f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        f.setTitle("Gravity Simulator");
     }
 }
