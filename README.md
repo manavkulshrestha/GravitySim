@@ -7,6 +7,8 @@ Force of gravity between multiple objects is calculated using Fg = (G * m1 * m2)
 When two or more objects get too close, they collide and combine to form a bigger object and momentum is preserved. m1v1 + m2v2 = (m1+m2)*v’
 
 ## Instructions:
+Run the main function in "GravitySimulator"
+
 All text fields take in integers. Play around with it to see what works well and allows you to achieve a stable orbit. Click anywhere on the “Gravity Simulator” to capture coordinates of the point and click “Pull Coordinates” to use them. Once you’re satisfied with your settings, click “Place” to place the body.
 
 ## Game:
